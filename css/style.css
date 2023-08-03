@@ -1,0 +1,61 @@
+body {
+  font-family: "Inter", sans-serif;
+  max-width: 1200px;
+  color: white;
+  background-color: rgb(221, 220, 220);
+}
+
+nav {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1em;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  max-width: 50px;
+  border-radius: 30px;
+}
+
+.login {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+main {
+  background-color: rgb(150, 105, 255);
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.browse {
+  background-color: rgb(0, 167, 125);
+  width: 10em;
+  height: 3em;
+  border-radius: 5px;
+}
+
+.instructor {
+  background-color: white;
+  width: 10em;
+  height: 3em;
+  color: black;
+  border-radius: 5px;
+}
+
+.info {
+  background-color: white;
+}
